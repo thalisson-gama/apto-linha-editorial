@@ -6,7 +6,7 @@
 <title>APTO Engenharia — Linha Editorial</title>
 <meta name="description" content="Linha editorial de conteúdo da APTO Engenharia: 5 programas, 1 post por dia e stories todo dia.">
 <meta property="og:title" content="APTO Engenharia — Linha Editorial">
-<meta property="og:description" content="O plano de conteúdo do Instagram: 5 programas, calendário e roteiros prontos.">
+<meta property="og:description" content="O plano de conteúdo do Instagram: 5 programas, 6 bandeiras, calendário e roteiros prontos.">
 <meta name="theme-color" content="#EC5A24">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2048%2048'%3E%3Crect%20x='2'%20y='2'%20width='44'%20height='44'%20rx='13'%20fill='%23EC5A24'/%3E%3Crect%20x='13'%20y='13'%20width='9'%20height='9'%20rx='2'%20fill='%232FA3A8'/%3E%3Crect%20x='26'%20y='13'%20width='9'%20height='9'%20rx='2'%20fill='%232FA3A8'/%3E%3Crect%20x='13'%20y='26'%20width='9'%20height='9'%20rx='2'%20fill='%232FA3A8'/%3E%3Crect%20x='26'%20y='26'%20width='9'%20height='9'%20rx='2'%20fill='%232FA3A8'/%3E%3C/svg%3E">
 <style>*{box-sizing:border-box}html,body{margin:0}img{max-width:100%}</style>
@@ -141,6 +141,15 @@
   .fstep .fdesc{color:var(--muted);font-size:13px;line-height:1.45;flex:1}
   .fstep .fst{font-size:12px;color:var(--ink);font-weight:600;border-top:1px solid var(--line-soft);padding-top:11px}
   .fstep .fst b{color:var(--pg)}
+
+  /* bandeiras */
+  .bandeiras{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  @media(max-width:640px){.bandeiras{grid-template-columns:1fr}}
+  .band{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:var(--radius);
+    background:var(--surface);padding:20px 22px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px}
+  .band .bn{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;font-weight:800;color:var(--accent)}
+  .band .bt{font-size:17px;font-weight:800;letter-spacing:-.01em;line-height:1.32;color:var(--ink)}
+  .band .bd{font-size:13.5px;color:var(--muted);margin-top:auto}
 
   /* tabs */
   .tabsbar{position:sticky;top:0;z-index:20;background:linear-gradient(180deg,var(--bg) 78%,transparent);
@@ -408,6 +417,23 @@
       <button class="fstep pg-converter" data-goto="p3"><span class="fn"><span class="dot"></span>03 · Tirar a dúvida</span><span class="fname">Você perguntou</span><span class="fdesc">Responde a objeção real antes de ela travar a venda.</span><span class="fst">Reels · <b>1x na semana</b></span></button>
       <button class="fstep pg-amplificar" data-goto="p4"><span class="fn"><span class="dot"></span>04 · Espalhar o cliente feliz</span><span class="fname">A entrega deles</span><span class="fdesc">O cliente feliz recebendo a chave. Pura prova social.</span><span class="fst">Reels · <b>1x na semana</b></span></button>
       <button class="fstep pg-sustentar" data-goto="p5"><span class="fn"><span class="dot"></span>05 · Aparecer todo dia</span><span class="fname">Um dia na APTO</span><span class="fdesc">Stories com enredo — o relacionamento diário.</span><span class="fst">Stories · <b>todo dia</b></span></button>
+    </div>
+  </section>
+
+  <!-- As bandeiras -->
+  <section>
+    <div class="shead">
+      <span class="eyebrow">As bandeiras</span>
+      <h2>As 6 verdades que a APTO repete até virar referência</h2>
+      <p class="lead">Bandeira é uma coisa em que vocês acreditam e batem na tecla o tempo todo — no conteúdo, na venda e na obra. <b style="color:var(--ink)">Todo vídeo defende uma delas</b> (aparece marcada com 🚩 em cada ficha). É a repetição que faz o cliente confiar em vocês.</p>
+    </div>
+    <div class="bandeiras">
+      <div class="band"><span class="bn">Bandeira 01</span><p class="bt">"Imóvel novo não vem perfeito — e você tem o direito de receber o que pagou."</p><span class="bd">Vem da vistoria. Tom de aliado, nunca de quem quer assustar.</span></div>
+      <div class="band"><span class="bn">Bandeira 02</span><p class="bt">"Empresa tem nome, CNPJ e nota fiscal. Autônomo e empreiteiro têm desculpa."</p><span class="bd">O diferencial de contratar uma empresa de verdade, não um solto.</span></div>
+      <div class="band"><span class="bn">Bandeira 03</span><p class="bt">"Com a APTO, você nunca fica na mão."</p><span class="bd">Faltou um engenheiro? Entra outro. A obra e a vistoria não param.</span></div>
+      <div class="band"><span class="bn">Bandeira 04</span><p class="bt">"A conta não é gastar menos. É gastar onde importa."</p><span class="bd">O método de material que economiza 30–40% sem baixar a qualidade.</span></div>
+      <div class="band"><span class="bn">Bandeira 05</span><p class="bt">"Reforma boa é a que não te dá susto."</p><span class="bd">Previsibilidade: prazo, pagamento e planejamento, sem surpresa.</span></div>
+      <div class="band"><span class="bn">Bandeira 06</span><p class="bt">"O imóvel perfeito não existe. O certo, a gente ajuda a enxergar."</p><span class="bd">Na hora de comprar — o ideal é o mais próximo, e dá pra ajustar.</span></div>
     </div>
   </section>
 
@@ -798,7 +824,12 @@
        dor:"“Preciso pagar tudo à vista?” — objeção de fluxo de caixa.",
        corpo:"Flexibilidade: contrato fechado na vistoria, saldo em 12x, cliente não gasta durante a obra. “Você se planeja, não descapitaliza.”",
        gancho:"“‘Preciso pagar tudo à vista?’ Não. Veja como a gente monta pra você não gastar na obra.”",
-       cta:"“Envia pra quem adiou a reforma achando que não cabia no bolso.”"}
+       cta:"“Envia pra quem adiou a reforma achando que não cabia no bolso.”"},
+      {code:"Q4",when:"Banco · reserva",who:"Breno (lote)",
+       dor:"“Dá pra economizar na reforma sem cair a qualidade?”",
+       corpo:"O método de material da APTO: a lista é montada por especificação técnica, não por marca famosa — economia de 30 a 40% sem perder qualidade. A conta não é gastar menos, é gastar onde importa.",
+       gancho:"“Cliente perguntou: ‘dá pra economizar na reforma sem baixar a qualidade?’ Dá — e não é comprando marca mais barata.”",
+       cta:"“Marca quem tá com medo de reformar e estourar o orçamento.”"}
     ],
     p4:[
       {code:"E1",when:"Semana 1 · Sex",who:"Equipe + cliente",
@@ -819,6 +850,25 @@
     ]
   };
 
+  var BANDS={
+    P1:"Bandeira 6 · o imóvel certo, não o perfeito",
+    P2:"Bandeira 6 · o imóvel certo, não o perfeito",
+    P3:"Bandeira 6 · o imóvel certo, não o perfeito",
+    P4:"Bandeira 6 · o imóvel certo, não o perfeito",
+    P5:"Bandeira 4 · gastar onde importa",
+    V1:"Bandeira 1 · imóvel novo não vem perfeito",
+    V2:"Bandeira 1 · imóvel novo não vem perfeito",
+    V3:"Bandeira 1 · imóvel novo não vem perfeito",
+    V4:"Bandeira 1 · imóvel novo não vem perfeito",
+    Q1:"Bandeira 2 · empresa, não empreiteiro",
+    Q2:"Bandeira 2 · empresa, não empreiteiro",
+    Q3:"Bandeira 5 · reforma sem susto",
+    Q4:"Bandeira 4 · gastar onde importa",
+    E1:"Bandeira 3 · você nunca fica na mão",
+    E2:"Bandeira 3 · você nunca fica na mão",
+    E3:"Bandeira 3 · você nunca fica na mão"
+  };
+
   function fichaHTML(f){
     return '<div class="acc">'
       + '<button class="acc-head" aria-expanded="false">'
@@ -828,7 +878,7 @@
         + '<svg class="caret" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 5l6 5-6 5"/></svg>'
       + '</button>'
       + '<div class="acc-body">'
-        + '<div class="accnote">'+f.when+' · responsável: '+f.who+'</div>'
+        + '<div class="accnote">'+f.when+' · responsável: '+f.who+(BANDS[f.code]?' · 🚩 '+BANDS[f.code]:'')+'</div>'
         + '<div class="row dor"><div class="rk">O tema</div><div class="rv">'+f.dor+'</div></div>'
         + '<div class="row gancho"><div class="rk">1 · Comece falando</div><div class="rv">'+f.gancho+'</div></div>'
         + '<div class="row corpo"><div class="rk">2 · Vocês contam</div><div class="rv"><div class="fill"><b>Aqui vocês escrevem — com as palavras de vocês</b>'+f.corpo+'</div></div></div>'
